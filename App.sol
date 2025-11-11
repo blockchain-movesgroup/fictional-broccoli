@@ -1,7 +1,7 @@
 
 contract App {
   address owner;
-  construct() {
-    owner = msg.sender;
+  construct(address _owner) {
+    owner = Owner;
   }
 }
